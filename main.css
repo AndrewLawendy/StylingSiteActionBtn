@@ -1,0 +1,28 @@
+/*Positioning the button*/
+#siteactiontd{position:absolute;top:413px;left:0;width:78px;text-align:center;padding-top:5px;padding-bottom:2px}
+
+/*Ribbon putting into consideration that it should appear in the edit page*/
+#suiteBar,#DeltaSPRibbon>.ms-cui-ribbonTopBars,#suiteBarLeft,#welcomeMenuBox,#ms-help{display:none}
+#globalNavBox{height:auto;max-height:35px}
+#suiteBar,#suiteBarRight{height:0;display:block}
+
+/*Styling of the button*/
+#suiteBarButtons .ms-siteactions-normal{width:78px;height:79px;border:0;padding-top:15px;cursor:pointer;box-sizing:border-box;transition:all 0.5s}
+#suiteBarButtons .ms-siteactions-normal p{font-size:0.86em;color:#666;text-align:center}
+#suiteBarButtons .ms-siteactions-normal.ms-siteactions-hover{background:#fff;border-left:2px solid #f16e00;transition:all 0.5s}
+#suiteBarButtons .ms-siteactions-normal.ms-siteactions-hover .ms-core-menu-root .ms-siteactions-imgspan{color:#f16e00;transition:all 0.5s}
+#suiteBarButtons .ms-siteactions-normal.ms-siteactions-hover p{color:#f16e00;font-family:HelveticaNeue-Bold;transition:all 0.5s}
+#suiteBarButtons .ms-siteactions-normal.ms-siteactions-hover a{text-decoration:none}
+#siteactiontd .ms-core-menu-root{padding:0;width:100%;height:auto}
+#siteactiontd .ms-core-menu-root .ms-siteactions-imgspan img{display:none}
+#siteactiontd .ms-core-menu-root .ms-siteactions-imgspan{width:100%;height:100%;margin-bottom:5px;font-family:'icomoon'!important;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-align:center}
+#siteactiontd .ms-core-menu-root .ms-siteactions-imgspan:before{content:"\e91d";font-size:2em}
+#siteactiontd .ms-core-menu-box.ms-core-defaultFont.ms-shadow{background-color:#fff!important;border-left:0!important;border-right:1px solid #ddd!important;width:240px!important;height:100%!important;padding-top:10px!important;padding-left:20px!important;position:fixed!important;top:0!important;left:78px!important;overflow-y:auto!important;overflow-x:hidden!important}
+#siteactiontd ul.ms-core-menu-list{height:100%}
+#siteactiontd ul.ms-core-menu-list li:hover span:first-child{padding-left:20px;transition:all 0.5s}
+#siteactiontd ul.ms-core-menu-list li span:first-child{display:block;font-family:HelveticaNeue-Bold;width:200px;font-size:1em;text-align:left;padding-left:15px;line-height:2.9em;border-bottom:1px solid #f0f0f0;transition:padding-left .3s,color .4s}
+#siteactiontd .ms-core-menu-separator{margin-top:20px}
+#siteactiontd .ms-core-menu-separator hr{display:none}
+#siteactiontd .ms-core-menu-item:hover{background-color:transparent}
+#siteactiontd .ms-core-menu-item:hover .ms-core-menu-title{color:#f16e00;transition:all 0.3s}
+#suiteBar a.ms-core-menu-link{padding:0}
